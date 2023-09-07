@@ -18,6 +18,7 @@ buttonStart.setAttribute("disabled", '');
 
 let selectedDate;
 let timerId = null;
+let formatDate = null;
 
 
 function convertMs(ms) {

@@ -2,6 +2,8 @@ const body = document.querySelector('body');
 const buttonStartEl = document.querySelector('[data-start]');
 const buttonStopEl = document.querySelector('[data-stop]');
 
+let timerId = null;
+
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16).padStart(6, 0)}`;
 }
